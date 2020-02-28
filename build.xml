@@ -2,11 +2,11 @@
 
 -<project default="compile">
 
-<property location="C:\Users\Aya\eclipse-workspace\finaltest\src\code" name="src.java.dir"/>
+<property location="./src/code" name="src.java.dir"/>
 
-<property location="C:\Users\Aya\eclipse-workspace\finaltest\src\test" name="src.test.dir"/>
+<property location="./src/test" name="src.test.dir"/>
 
-<property location="./target" name="result.dir"/>
+<property location="./target"/>
 
 <property location="${result.dir}/classes" name="result.javaclasses.dir"/>
 
